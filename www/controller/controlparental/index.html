@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+		<title>Control Parental - uc3Kids</title>
+		<link rel="icon" type="image/png" href="../../viz/src/LogoUC3Kids.png">
+
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script src="../../sockets.js"></script>
+
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+		
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body>
+
+		<img id="logo" src="../../viz/src/logos/logo_uc3kids_original.png" alt="UC3Kids">
+
+		<form id="acceder-form" method="post">
+			<h2>Control Parental</h2>
+			<label for="password">Contraseña:</label>
+			<input type="password" id="password" name="password" placeholder="Contraseña..." required>
+			<input id="acceder-btn" type="submit" value="Acceder">
+		</form>
+
+		<script type="text/javascript" src="script.js"></script>
+
+    </body>
+</html>

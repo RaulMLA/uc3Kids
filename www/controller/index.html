@@ -1,0 +1,35 @@
+<html>
+
+    <head>
+		
+		<title>uc3Kids</title>
+		<link rel="icon" type="image/png" href="../viz/src/LogoUC3Kids.png">
+
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script src="../sockets.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body>
+
+        <div id="contenedor-logo">
+            <img id="salir" src="../viz/src/salir.png" alt="flecha atrás" onclick="volver()">
+            <img id="logo" src="../viz/src/logos/logo_uc3kids_blanco.png" alt="uc3Kids">
+            <img id="user" src="../viz/src/user.png" alt="logo">
+        </div>
+        
+        <div id="msg-container">
+            <p id="msg-conectado">¡Conectado!</p>
+            <h2 id="msg-apunta">Apunta a la pantalla y toca para navegar</h2>
+        </div>
+        
+    <script type="text/javascript" src="script.js"></script>
+
+    </body>
+</html>

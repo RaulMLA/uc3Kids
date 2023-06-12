@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=Inter:wght@200;400;700&display=swap");
+
+/* Variables para los colores (modo oscuro) */
+:root {
+  --blanco: #ffffff;
+  --blanco_claro: #efefef;
+  --gris: #2b2b2b;
+  --gris_claro: #808080;
+  --negro: #000000;
+  --naranja: #ee694a;
+  --naranja_claro: #fdf1e0;
+  --amarillo: #f4ad3d;
+  --azul: #6aa5ec;
+  --azul_claro: #e9f3fe;
+  --morado: #8b7ff7;
+  --morado_claro: #edeafd;
+  --verde: #4ba750;
+  --verde_claro: #e4f2e6;
+  --rojo: #fc2a43;
+  --rojo_claro: #f2e4e4;
+}
+
+/* Estilos generales */
+* {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  background-color: var(--blanco);
+  color: var(--gris);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  background-color: var(--blanco_claro);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  background-color: var(--blanco);
+  color: var(--gris);
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+input::placeholder {
+  color: var(--gris_claro);
+}
+
+input:focus {
+  border-color: var(--amarillo);
+}
+
+input[type="submit"] {
+  background-color: var(--amarillo);
+  color: var(--blanco);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#logo {
+  height: 4rem;
+  margin: 2rem;
+}

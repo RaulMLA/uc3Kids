@@ -1,0 +1,318 @@
+[
+    {
+        "usuario": "admin",
+        "password": "admin",
+        "contenido": [
+            {
+                "nombre": "Peppa Pig",
+                "tipo": "serie",
+                "path_video": "../src/videos/peppa.mp4",
+                "path_imagen": "../src/portadas/peppa.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Pocoyo",
+                "tipo": "serie",
+                "path_video": "../src/videos/pocoyo.mp4",
+                "path_imagen": "../src/portadas/pocoyo.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Dora la exploradora",
+                "tipo": "serie",
+                "path_video": "../src/videos/dora.mp4",
+                "path_imagen": "../src/portadas/dora.webp",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Bob Esponja",
+                "tipo": "serie",
+                "path_video": "../src/videos/bob.mp4",
+                "path_imagen": "../src/portadas/bob.jpg",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Paw Patrol",
+                "tipo": "serie",
+                "path_video": "../src/videos/paw.mp4",
+                "path_imagen": "../src/portadas/paw.webp",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Los padrinos mágicos",
+                "tipo": "serie",
+                "path_video": "../src/videos/padrinos.mp4",
+                "path_imagen": "../src/portadas/padrinos.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Los Picapiedra",
+                "tipo": "serie",
+                "path_video": "../src/videos/pica.mp4",
+                "path_imagen": "../src/portadas/pica.png",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Los Simpson",
+                "tipo": "serie",
+                "path_video": "../src/videos/simpson.mp4",
+                "path_imagen": "../src/portadas/simpson.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Los Super Campeones",
+                "tipo": "serie",
+                "path_video": "../src/videos/campeones.mp4",
+                "path_imagen": "../src/portadas/campeones.jpeg",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Toy Story",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/toy.mp4",
+                "path_imagen": "../src/portadas/toy.webp",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Cars",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/cars.mp4",
+                "path_imagen": "../src/portadas/cars.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Buscando a Nemo",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/nemo.mp4",
+                "path_imagen": "../src/portadas/nemo.jpeg",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Up",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/up.mp4",
+                "path_imagen": "../src/portadas/up.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Monsters Inc",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/monsters.mp4",
+                "path_imagen": "../src/portadas/monsters.webp",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Buscando a Dory",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/dory.mp4",
+                "path_imagen": "../src/portadas/dory.webp",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Barrio Sésamo",
+                "tipo": "serie",
+                "path_video": "../src/videos/barrio.mp4",
+                "path_imagen": "../src/portadas/barrio.jpeg",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "La Casa de Mickey Mouse",
+                "tipo": "serie",
+                "path_video": "../src/videos/mickey.mp4",
+                "path_imagen": "../src/portadas/mickey.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Sólo en Casa",
+                "type": "pelicula",
+                "path_video": "../src/videos/casa.mp4",
+                "path_imagen": "../src/portadas/casa.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Scoby Doo",
+                "type": "serie",
+                "path_video": "../src/videos/scoby.mp4",
+                "path_imagen": "../src/portadas/scoby.webp",
+                "favoritos": "yes",
+                "restricted": "no"
+            }
+        ]
+    },
+    {
+        "usuario": "Diego",
+        "password": "12345",
+        "contenido": [
+            {
+                "nombre": "Peppa Pig",
+                "tipo": "serie",
+                "path_video": "../src/videos/peppa.mp4",
+                "path_imagen": "../src/portadas/peppa.jpeg",
+                "favoritos": "yes",
+                "restricted": "yes"
+            },
+            {
+                "nombre": "Pocoyo",
+                "tipo": "serie",
+                "path_video": "../src/videos/pocoyo.mp4",
+                "path_imagen": "../src/portadas/pocoyo.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Dora la exploradora",
+                "tipo": "serie",
+                "path_video": "../src/videos/dora.mp4",
+                "path_imagen": "../src/portadas/dora.webp",
+                "favoritos": "no",
+                "restricted": "yes"
+            },
+            {
+                "nombre": "Bob Esponja",
+                "tipo": "serie",
+                "path_video": "../src/videos/bob.mp4",
+                "path_imagen": "../src/portadas/bob.jpg",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Paw Patrol",
+                "tipo": "serie",
+                "path_video": "../src/videos/paw.mp4",
+                "path_imagen": "../src/portadas/paw.webp",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Los padrinos mágicos",
+                "tipo": "serie",
+                "path_video": "../src/videos/padrinos.mp4",
+                "path_imagen": "../src/portadas/padrinos.jpeg",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Los Picapiedra",
+                "tipo": "serie",
+                "path_video": "../src/videos/pica.mp4",
+                "path_imagen": "../src/portadas/pica.png",
+                "favoritos": "no",
+                "restricted": "yes"
+            },
+            {
+                "nombre": "Los Simpson",
+                "tipo": "serie",
+                "path_video": "../src/videos/simpson.mp4",
+                "path_imagen": "../src/portadas/simpson.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Los Super Campeones",
+                "tipo": "serie",
+                "path_video": "../src/videos/campeones.mp4",
+                "path_imagen": "../src/portadas/campeones.jpeg",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Toy Story",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/toy.mp4",
+                "path_imagen": "../src/portadas/toy.webp",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Cars",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/cars.mp4",
+                "path_imagen": "../src/portadas/cars.jpeg",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Buscando a Nemo",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/nemo.mp4",
+                "path_imagen": "../src/portadas/nemo.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Up",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/up.mp4",
+                "path_imagen": "../src/portadas/up.jpeg",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Monsters Inc",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/monsters.mp4",
+                "path_imagen": "../src/portadas/monsters.webp",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Buscando a Dory",
+                "tipo": "pelicula",
+                "path_video": "../src/videos/dory.mp4",
+                "path_imagen": "../src/portadas/dory.webp",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Barrio Sésamo",
+                "tipo": "serie",
+                "path_video": "../src/videos/barrio.mp4",
+                "path_imagen": "../src/portadas/barrio.jpeg",
+                "favoritos": "yes",
+                "restricted": "no"
+            },
+            {
+                "nombre": "La Casa de Mickey Mouse",
+                "tipo": "serie",
+                "path_video": "../src/videos/mickey.mp4",
+                "path_imagen": "../src/portadas/mickey.jpeg",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Sólo en Casa",
+                "type": "pelicula",
+                "path_video": "../src/videos/casa.mp4",
+                "path_imagen": "../src/portadas/casa.jpeg",
+                "favoritos": "no",
+                "restricted": "no"
+            },
+            {
+                "nombre": "Scoby Doo",
+                "type": "serie",
+                "path_video": "../src/videos/scoby.mp4",
+                "path_imagen": "../src/portadas/scoby.webp",
+                "favoritos": "no",
+                "restricted": "no"
+            }
+        ]
+    }
+]

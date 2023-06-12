@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+		<title>uc3Kids</title>
+		<link rel="icon" type="image/png" href="viz/src/LogoUC3Kids.png">
+        
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script src="./sockets.js"></script>
+
+        <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+		<div class="container">
+
+			<img id="logo" src="../../viz/src/logos/logo_uc3kids_original.png" alt="UC3Kids">
+			
+			<h1>¡Escanea el QR con el móvil para empezar!</h1>
+			
+			<div id="qrcode"></div>
+
+			<div class="ayuda">¿No sabes cómo hacerlo?</div>
+			<div class="ayuda">¡Pide ayuda a un adulto!</div>
+			
+		
+
+    	</div>
+
+      	<script>
+			const qrcode = new QRCode("qrcode", {
+				text: "https://localhost:3000/controller/register/",
+				width: 300,
+				height: 300,
+				colorDark: "#000000",
+				colorLight: "#ffffff",
+				correctLevel: QRCode.CorrectLevel.H
+			});
+      	</script>
+
+    </body>
+
+</html>

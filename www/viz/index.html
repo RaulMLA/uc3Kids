@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>uc3Kids</title>
+		<link rel="icon" type="image/png" href="src/LogoUC3Kids.png">
+
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script src="../sockets.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+		
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+
+		<div id="contenedor-1">
+			<img id="logo" src="./src/logos/logo_uc3kids_original_PAD.png" alt="UC3Kids">
+		</div>
+
+		<div id="contenedor-2">
+
+			<div class="slider seleccion" data-id="slider">
+
+				<div data-html="./reproduccion">
+					<a href="./src/videos/barrio.mp4">
+						<img src="./src/portadas/barrio.jpeg" alt="Imagen 1">
+					</a>
+				</div>
+
+				<div data-html="./reproduccion">
+					<a href="./src/videos/casa.mp4">
+						<img src="./src/portadas/casa.jpeg" alt="Imagen 2">
+					</a>
+				</div>
+
+				<div data-html="./reproduccion">
+					<a href="./src/videos/mickey.mp4">
+						<img href="./src/pepaPig.mp4" src="./src/portadas/mickey.jpeg" alt="Imagen 3">
+					</a>
+				</div>
+
+			</div>
+			
+		</div>
+		
+		<div id="contenedor-3">
+
+			<div class="square caja1" data-id="caja1" data-html="./playlists/favoritos.html">
+				<p>Favoritos</p>
+			</div>
+
+			<div class="square caja2" data-id="caja2" data-html="./playlists/peliculas.html">
+				<p>Películas</p>
+			</div>
+
+			<div class="square caja3" data-id="caja3" data-html="./playlists/series.html">
+				<p>Series</p>
+			</div>
+
+		</div>
+		
+		<div id="contenedor-4">
+
+			<div class="salir" data-id="salir" data-html="/">
+				<img src="./src/salir.png" alt="Salir">
+				<p>Salir</p>
+			</div>
+
+			<div class="lupa" data-id="lupa" data-html="/viz/buscador/index.html">
+				<img src="./src/lupa.png" alt="Buscar">
+				<p>Buscar</p>
+			</div>
+
+			<div class="control-parental" data-id="control-parental" data-html="./login_controlparental/index.html">
+				<img src="./src/control-parental.png" alt="Control Parental">
+				<p>Control Parental</p>
+			</div>
+
+			<div class="user" data-id="user" data-html="/viz/usuario/index.html">
+				<img src="./src/user.png" alt="Usuario">
+				<p>Usuario</p>
+			</div>
+			
+		</div>
+
+		<script src="script.js"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<title>uc3Kids</title>
+		<link rel="icon" type="image/png" href="../../viz/src/LogoUC3Kids.png">
+
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script src="../../sockets.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+
+	<body>
+		<div id="header">
+			<img src="../../viz/src/salir.png" alt="flecha atrás" onclick="volver()">
+			<img src="../../viz/src/logos/logo_uc3kids_blanco.png" alt="logo">
+			<img src="../../viz/src/user.png" alt="logo">
+		</div>
+
+		<div id="msg-container">
+
+			<div id = "container_volumen">
+
+				<div id="caja-volume-down">
+					<img id = "volume_down" src="../../viz/src/vol_down.png" alt="bajar volumen" onclick="bajarVol()">
+				</div>
+
+				<div id="caja-volume-up">
+					<img id = "volume_up" src="../../viz/src/vol_up.png" alt="subir volumen" onclick="subirVol()">
+				</div>
+
+			</div>
+			
+			<div>
+				<h2 id = "mensaje">AGITA</h2>
+                <p>PARA PAUSAR O REPRODUCIR</p>
+				<br>
+				<h2 id = "mensaje">HABLA</h2>
+                <p>o</p>
+                <h2 id = "mensaje">TOCA</h2>
+				<p>PARA CONTROLAR</p>
+			</div>
+			
+			<div id = "container_flechas">
+
+				<div id="caja-flecha-izq">
+					<img id = "flecha_izq" src="../../viz/src/flechas_izq.png" alt="flecha izquierda" onclick="atrasar()">
+				</div>
+
+				<div id="caja-like">
+					<img id="like" src="../../viz/src/like.png" alt="like" onclick="like()">
+				</div>
+
+				<div id="caja-flecha-der">
+					<img id = "flecha_der" src="../../viz/src/flechas_der.png" alt="flecha derecha" onclick="adelantar()">
+				</div>
+				
+			</div>
+			
+		</div>
+
+		<script src="script.js"></script>
+
+	</body>
+
+</html>

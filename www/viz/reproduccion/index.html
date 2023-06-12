@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>uc3Kids</title>
+		<link rel="icon" type="image/png" href="../src/LogoUC3Kids.png">
+
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script src="../../sockets.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+		
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+
+		<div class="animacion" id="play">
+			<img id="play" src="../src/play.png" alt="play">
+		</div>
+
+		<div class="animacion" id="pausa">
+			<img id="pausa" src="../src/pausa.png" alt="pausa">
+		</div>
+
+		<div class="animacion" id="adelantar">
+			<img id="adelantar" src="../src/flechas_der.png" alt="adelantar">
+		</div>
+
+		<div class="animacion" id="atrasar">
+			<img id="atrasar" src="../src/flechas_izq.png" alt="atrasar">
+		</div>
+
+		<div class="animacion" id="subir-volumen">
+			<img id="subir-volumen" src="../src/vol_up.png" alt="subir-volumen">
+		</div>
+
+		<div class="animacion" id="bajar-volumen">
+			<img id="bajar-volumen" src="../src/vol_down.png" alt="bajar-volumen">
+		</div>
+
+		<div class="animacion" id="me_gusta">
+			<img id="me_gusta" src="../src/like_pressed.png" alt="me_gusta">
+		</div>
+
+		<div class="animacion" id="no_me_gusta">
+			<img id="no_me_gusta" src="../src/like.png" alt="no_me_gusta">
+		</div>
+		
+		<video controls id ="video" src="../src/videos/blank.mp4" type="video/mp4" autoplay onclick="actualizar()">
+			Error procesando el vídeo
+		</video>
+
+	<script src="script.js"></script>
+
+	</body>
+
+</html>
