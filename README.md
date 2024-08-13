@@ -1,17 +1,22 @@
 # <img src="media/logo_blanco.png" style="width: 250px;">
 uc3Kids es una plataforma de video en streaming especialmente creada para niños. Ofrece una amplia selección de contenido infantil, incluyendo películas, programas de televisión, dibujos animados y mucho más. Con esta aplicación, los niños pueden tener el control total sobre lo que quieren ver y cómo lo quieren ver, directamente desde su smartphone.
 
-La aplicación web, basada en Node.js y utilizando diversas tecnologías web como JavaScript, HTML y CSS, está diseñada para proporcionar a los niños una forma sencilla de controlar un sitio web de streaming de video bajo demanda. Con ella, los niños pueden disfrutar de su contenido favorito sin tener que pedir ayuda a sus padres para hacer uso del control remoto del televisor.
+La aplicación web, basada en Node.js y utilizando diversas tecnologías web como JavaScript, HTML y CSS, y módulos como Socket.io, está diseñada para proporcionar a los niños una forma sencilla de controlar un sitio web de streaming de video bajo demanda. Con ella, los niños pueden disfrutar de su contenido favorito sin tener que pedir ayuda a sus padres para hacer uso del control remoto del televisor.
 
 El objetivo de la aplicación es ofrecer una forma diferente de controlar el contenido que aparece en pantalla. Esto se consigue mediante el uso de gestos con el dispositivo móvil, que se comunican con la aplicación a través de un servidor Node.js. De esta forma, los niños pueden navegar por los menús, seleccionar el contenido que desean ver y controlar la reproducción de los vídeos, todo ello sin necesidad de utilizar el control remoto del televisor. Además de los gestos, la aplicación también ofrece la posibilidad de controlar la reproducción mediante comandos de voz, lo que permite a los niños controlar la reproducción de los vídeos sin necesidad de utilizar las manos.
 
 <p>
-<img src="media/captura_1.png" style="width: 300px;">
-<img src="media/captura_2.png" style="width: 300px;">
-<img src="media/captura_3.png" style="width: 300px;">
-<img src="media/captura_4.png" style="width: 300px;">
-<img src="media/captura_5.png" style="width: 300px;">
-<img src="media/captura_6.png" style="width: 300px;">
+<img src="media/nav_1.png" style="width: 466px;">
+<img src="media/nav_2.png" style="width: 350px;">
+<img src="media/movil_1.jpg" style="width: 112px;">
+<img src="media/nav_3.png" style="width: 350px;">
+<img src="media/movil_2.jpg" style="width: 112px;">
+<img src="media/nav_4.png" style="width: 350px;">
+<img src="media/movil_3.jpg" style="width: 112px;">
+<img src="media/nav_5.png" style="width: 350px;">
+<img src="media/movil_4.jpg" style="width: 112px;">
+<img src="media/nav_6.png" style="width: 350px;">
+<img src="media/movil_5.jpg" style="width: 112px;">
 </p>
 
 # Contenido
