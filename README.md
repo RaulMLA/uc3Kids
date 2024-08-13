@@ -6,16 +6,16 @@ La aplicación web, basada en Node.js y utilizando diversas tecnologías web com
 El objetivo de la aplicación es ofrecer una forma diferente de controlar el contenido que aparece en pantalla. Esto se consigue mediante el uso de gestos con el dispositivo móvil, que se comunican con la aplicación a través de un servidor Node.js. De esta forma, los niños pueden navegar por los menús, seleccionar el contenido que desean ver y controlar la reproducción de los vídeos, todo ello sin necesidad de utilizar el control remoto del televisor. Además de los gestos, la aplicación también ofrece la posibilidad de controlar la reproducción mediante comandos de voz, lo que permite a los niños controlar la reproducción de los vídeos sin necesidad de utilizar las manos.
 
 <p>
-<img src="media/nav_2.png" style="width: 350px;">
-<img src="media/movil_1.jpg" style="width: 112px;">
-<img src="media/nav_3.png" style="width: 350px;">
-<img src="media/movil_2.jpg" style="width: 112px;">
-<img src="media/nav_4.png" style="width: 350px;">
-<img src="media/movil_3.jpg" style="width: 112px;">
-<img src="media/nav_5.png" style="width: 350px;">
-<img src="media/movil_4.jpg" style="width: 112px;">
-<img src="media/nav_6.png" style="width: 350px;">
-<img src="media/movil_5.jpg" style="width: 112px;">
+<img src="media/nav_2.png" style="width: 600px;">
+<img src="media/movil_1.jpg" style="width: 193px;">
+<img src="media/nav_3.png" style="width: 600px;">
+<img src="media/movil_2.jpg" style="width: 193px;">
+<img src="media/nav_4.png" style="width: 600px;">
+<img src="media/movil_3.jpg" style="width: 193px;">
+<img src="media/nav_5.png" style="width: 600px;">
+<img src="media/movil_4.jpg" style="width: 193px;">
+<img src="media/nav_6.png" style="width: 600px;">
+<img src="media/movil_5.jpg" style="width: 193px;">
 </p>
 
 # Contenido
